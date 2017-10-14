@@ -14,6 +14,7 @@
 		EE65733D1F8F0A1600AA6C05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE65733B1F8F0A1600AA6C05 /* LaunchScreen.storyboard */; };
 		EE6573481F8F0A1600AA6C05 /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6573471F8F0A1600AA6C05 /* To_Do_ListTests.swift */; };
 		EE6573531F8F0A1600AA6C05 /* To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6573521F8F0A1600AA6C05 /* To_Do_ListUITests.swift */; };
+		EE6573611F91B09D00AA6C05 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6573601F91B09D00AA6C05 /* AddToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EE65734E1F8F0A1600AA6C05 /* To Do ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To Do ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6573521F8F0A1600AA6C05 /* To_Do_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITests.swift; sourceTree = "<group>"; };
 		EE6573541F8F0A1600AA6C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6573601F91B09D00AA6C05 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EE6573391F8F0A1600AA6C05 /* Assets.xcassets */,
 				EE65733B1F8F0A1600AA6C05 /* LaunchScreen.storyboard */,
 				EE65733E1F8F0A1600AA6C05 /* Info.plist */,
+				EE6573601F91B09D00AA6C05 /* AddToDoViewController.swift */,
 			);
 			path = "To Do List";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE6573351F8F0A1600AA6C05 /* ViewController.swift in Sources */,
+				EE6573611F91B09D00AA6C05 /* AddToDoViewController.swift in Sources */,
 				EE6573331F8F0A1600AA6C05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
